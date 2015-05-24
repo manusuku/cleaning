@@ -53,7 +53,7 @@ colnames(full_data) <- c("activity", "subject", as.vector(features[,2]))
 good_data<-full_data[,unique(colnames(full_data))]
 
 ## select mean of std dev
-meanOrStd<-select(good_data,activity,subject, contains("mean"), contains("std"))
+meanOrStd<-select(good_data,activity,subject, contains("mean()"), contains("std()"))
 
 ## add proper names for activity
 namelst<-factor(as.vector(meanOrStd[,1]), as.vector(activity_labels[,2]))
@@ -64,8 +64,8 @@ grpd <- group_by(meanOrStd,activity,subject)
 
 summarise_each(grpd,funs(mean))
 
-write.table(summarise_each(grpd,funs(mean)), row.name=FALSE)
-
+##write.table(summarise_each(grpd,funs(mean)), row.name=FALSE)
+write.table(summarise_each(grpd,funs(mean)), file = "./cleaning/final_data.txt", row.name=FALSE)
 
 
 
