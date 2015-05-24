@@ -5,4 +5,4 @@ Pre-requisists:
 2. Unzip the files under a subfolder "./cleaning"  (below your working directory)
 3. Download this script to your working directory & execute.
 
-The Output will be created under working directory as: final_data.txt
+The Output will be created under working directory as: cleaning/final_data.txt
