@@ -56,7 +56,7 @@ good_data<-full_data[,unique(colnames(full_data))]
 meanOrStd<-select(good_data,activity,subject, contains("mean()"), contains("std()"))
 
 ## add proper names for activity
-namelst<-factor(as.vector(meanOrStd[,1]), as.vector(activity_labels[,2]))
+namelst<-factor(as.vector(meanOrStd[,1]), labels=as.vector(activity_labels[,2]))
 
 meanOrStd$activity <- namelst
 
