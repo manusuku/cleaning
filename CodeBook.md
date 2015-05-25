@@ -1,22 +1,17 @@
 # Summary of Accelerometer Data.
 
-The iput data used for this process is from:
+The input data used for this process is from:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 The data ser contains 6 activities for 30 people collected under two set of results as test & training.
 
-1 WALKING
-
-2 WALKING_UPSTAIRS
-
-3 WALKING_DOWNSTAIRS
-
-4 SITTING
-
-5 STANDING
-
-6 LAYING
+*1 WALKING
+*2 WALKING_UPSTAIRS
+*3 WALKING_DOWNSTAIRS
+*4 SITTING
+*5 STANDING
+*6 LAYING
 
 The activities recorded for each of the 30 people(subjects) for these 6 activities are recorded for below 561 measurements.
 
