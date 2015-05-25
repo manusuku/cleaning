@@ -38,7 +38,12 @@ The resulting dataset is grouped for each Subject(total of 30) over 6 activities
 * fBodyAcc-XYZ
 * fBodyAccJerk-XYZ
 
- 
+There are are 180 instances of these 66 measurements over 30 subjects and 6 activiteis sattes above.
+
+In these measurements:
+
+timedomain signals are prefixed with t.
+frequency domain signals are prefixed with f. 
 
 
 
