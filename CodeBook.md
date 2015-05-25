@@ -15,7 +15,7 @@ The original data set contained 561 accelerometer and and gyroscope measurements
 * 5 STANDING
 * 6 LAYING
 
-## The given script, run_analysis.R:
+### The given script, run_analysis.R:
 
 1. Processes two sets of data (training & test) from above zips
 2. Eliminates all measurements data set, which are not either STD Dev() or mean().
