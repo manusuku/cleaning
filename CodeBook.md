@@ -580,6 +580,6 @@ The activities recorded for each of the 30 people(subjects) for these 6 activiti
 
 The given script, run_analysis.R:
 
-1. Processes two sets of data (training & test)
-2. Eliminates all measurements data set, which are not either STd Dev or mean.
-3. With proper lebls for each activity & measurements takens, data is summarized  (average of each measurements)  for each activity and each subject.
+1. Processes two sets of data (training & test) from above zips
+2. Eliminates all measurements data set, which are not either STD Dev() or mean().
+3. With proper labls for each activity & measurements takens, data is summarized  (average of each measurements)  for each activity and each subject.
