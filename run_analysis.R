@@ -62,7 +62,7 @@ meanOrStd$activity <- namelst
 
 grpd <- group_by(meanOrStd,activity,subject)
 
-summarise_each(grpd,funs(mean))
+##summarise_each(grpd,funs(mean))
 
 ##write.table(summarise_each(grpd,funs(mean)), row.name=FALSE)
 write.table(summarise_each(grpd,funs(mean)), file = "./cleaning/final_data.txt", row.name=FALSE)
